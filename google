@@ -1,0 +1,214 @@
+<html>
+    <head>
+        <style>
+            *
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+nav a{
+    font-size: 15px;
+    display: inline-block;
+    line-height: 25px;
+    font-weight: 400;
+    color:rgb(0,0,0,0.9);
+    cursor: pointer;
+    padding: 5px 8px
+
+}
+nav a:hover{
+    text-decoration: underline;
+    opacity: .88;
+}
+nav img{
+    width: 35px;
+    padding: 5px;
+    margin: auto 8px;
+    cursor: pointer;
+}
+nav img:hover{
+    opacity: .8;
+}
+nav button{
+    border: 2px solid #424242;
+    font-weight: bold;
+    outline: none;
+    background: #424242;
+    color: azure;
+    padding: 8px 12px;
+    border-radius: 3px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.section-1{
+    flex:1;
+
+}
+.section-1.logo{
+    display: block;
+    margin: 0px auto;
+    margin-top: 106px;
+
+}
+.s-div{
+    width: 580px;
+    margin: 1px auto;
+    position: relative;
+    margin-top: -8px;
+    text-align: center;
+}
+.s-div .s-input{
+    display: block;
+    border: 1px solid #ddd;
+    color: rgba(0,0,0,0.87);
+    font-size: 15px;
+    padding: 14px;
+    padding-left: 45px;
+    border-radius: 25px;
+    width: 100%;
+    outline:none:
+}
+.s-div  .s-input:hover{
+    border: 1 px solid #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,0.05);
+               0 0 2px rgba(0,0,0,0.05),
+               0 0 3px rgba(0,0,0,0.05),
+              0 0 4px rgba(0,0,0,0.05),
+              0 0 5px rgba(0,0,0,0.05),
+              0 0 4px rgba(0,0,0,0.05),
+              0 0 5px rgba(0,0,0,0.05)
+}
+.s-div .search-icon{
+    width: 20px;
+    opacity: .5;
+    position: absolute;
+    top: 13px;
+    left: 15px;
+}
+.s-div .mic-icon
+{
+    width: 14px;
+    position: absolute;
+    top: 13px;
+    right: 23px;
+}
+.s-button{
+    border: 1px solid transparent;
+    padding: 9px 15px;
+    color:#666;
+    font-size: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 29px;
+    outline: none;
+    cursor: pointer;
+
+}
+.s-button:hover{
+    border: 1px solid #aaa;
+}
+.lang a{
+    margin-left: 5px;
+    color: #1a0dab;
+}
+.lang a:hover{
+    text-decoration: underline;
+}
+footer{
+    background: #fffbfb;
+}
+footer h4{
+    color: rgba(240, 232, 232, 0.054);
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 400;
+    padding-left: 30px;
+    border: 1px solid #eee;
+
+}
+footer a{
+    color: #5f6368;
+    display: inline-block;
+    padding: 12px 11px;
+    font-size: 15px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.links{
+    border-top: 1px solid #ddd;
+    display: flex;
+}
+.link-1{
+    padding-left: 18px;
+    flex: 1;
+}
+.link-2{
+    padding-left: 18px;
+}
+        </style>
+        <title>
+            Google
+        </title>
+        <link rel="icon" href="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png">
+        <!-- <link rel="stylesheet" type="text/css" href="style1.css">
+    -->
+    </head>
+    <body>
+        <nav>
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <img src="https://cdn4.vectorstock.com/i/1000x1000/13/78/menu-icon-vector-21641378.jpg">
+            <button>Sign in</button>
+        </nav>
+        <section class="section-1">
+           <center> <img src="https://www.finsmes.com/wp-content/uploads/2016/09/google.jpg" class="logo" width="500px"  ></center>
+            <form>
+                <br>
+                <div class="s-div">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3917/3917754.png" class="search-icon">
+                    <input type="text" class="s-input">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png" class="mic-icon">
+                    <input type="submit" class="s-button" value="Google search">
+                    <input type="submit" class="s-button" value="hai im bhavana">
+                </div>
+            </form>
+            
+        </div>
+        <!-- <div class="lang">
+            Google search:
+            <a href="#"></a>
+        </div> -->
+        </section>
+        <footer>
+            <h4>Details</h4>
+            <div class="links">
+                <div class="link-2">
+                <a href="#">Business</a>
+                <a href="#">About</a>
+                <a href="#">How search bar works</a>
+            </div>
+            <div class="link-2">
+                <a href="#"></a>
+            </div>
+            </div>
+        </footer>
+    </body>
+</html>
